@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #D7E8BA;
+}
+
+form{
+    background: #F5F5F5;
+    width: 35%;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 992px) {
+    form {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 98%;
+    }
+}
